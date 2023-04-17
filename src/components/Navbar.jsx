@@ -15,44 +15,11 @@ const Navbar = () => {
           <img src={kwlogowhite} alt="logo" className="w-9 h-9 object-contain" />
           <p className='text-white text-[18px] font-bold cursor-pointer flex' >Kar Wei &nbsp;<span className='md:block hidden'>| Personal Portfolio</span></p>
         </Link>
-        {/* <ul className='list-none hidden sm:flex flex-row gap-10 fixed float-right'>
-            {navLinks.map((link)=>(
-              <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={()=>setActive(link.title)}
-            >
-                <a href={`#${link.id}`}>{link.title}</a>
-              </li>
-            ))}
-        </ul>
-
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
-          <img src={toggle?close: menu} alt='menu' className='w-[28px] h-[28px] object-contain cursor-pointer' onClick={()=>setToggle(!toggle)}/>
-          <div className={`${!toggle? 'hidden':'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}>
-          <ul className='list-none flex justify-end items-start flex-col gap-4 '>
-            {navLinks.map((link)=>(
-              <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white font-poppins font-medium cursor-pointer text-[16px]`}
-              onClick={()=>{setActive(link.title); setToggle(!toggle)}}
-            >
-                <a href={`#${link.id}`}>{link.title}</a>
-              </li>
-            ))}
-        </ul>
-
-          </div>
-        </div> */}
       </div>
       <button className='nav-toggler w-[50px] h-[50px] cursor-pointer rounded-full fixed	right-[3%] z-[1000] ' onClick={()=>setToggle(!toggle)}>
           <span></span>
       </button>
-      <div className={`nav-menu ${!toggle? 'translate-y-[calc(-100%)] ':'translate-y-0'} bg-gradient-to-l from-[#EFEFBB] to-[#D4D3DD]`}>
+      <div className={`nav-menu ${!toggle? ' ':'active'} bg-gradient-to-l from-[#EFEFBB] to-[#D4D3DD]`}>
         <div className='nav-inner justify-between sm:flex-row flex-col flex md:h-[80%] sm:mt-[10%] xl:mt-[5%] mt-[15%]  '>
           <div className='items-center flex left-[10%] '>
             <ul>

@@ -388,8 +388,14 @@ body::before{
   padding: 35px 15px;
   z-index: 100;
   transition: all 0.5s ease-in-out;
-  
+  background-color: #000000;
+  clip-path: circle(0% at 95.3% 8.5%);
 }
+.nav-menu.active{
+  clip-path: circle(140% at 95.3% 8.5%);
+}
+
+
 
 .nav-inner{
   /* min-height: calc(100vh - 70px); */
