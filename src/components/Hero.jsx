@@ -28,7 +28,7 @@ const Hero = () => {
 
             <div className=' self-center  xl:flex-1 xl:h-auto'>
               
-                <img className='mx-auto rounded-full  xl:h-[300px] h-[250px]' src={tkw}></img>
+                <img className='mx-auto rounded-full  lg:h-[300px] h-[200px]' src={tkw}></img>
               
             </div>
         </div>
