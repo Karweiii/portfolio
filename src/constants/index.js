@@ -250,10 +250,6 @@ import {
           name: "Java Swing",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
       image: javaprg,
       source_code_link: "",
