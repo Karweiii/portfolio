@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 import Tilt from 'react-tilt'
 import { useRef } from 'react'
 
-const ProjectCard=({index,name,description,tags,image,source_code_link})=>{
+const ProjectCard=({index,name,description,tags,image,source_code_link,webp_link})=>{
   const ref=useRef(null);
 
   return(
@@ -16,7 +16,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link})=>{
       <div className='bg-[rgba(255,255,255,0.45)] p-5 rounded-2xl sm:w-[338px] w-full'>
       <Tilt options={{max:45,scale:1,speed:450}} ref={ref}>
         <div className='relative w-full h-[230px] border-solid border-[5px] border-[rgba(108,122,137,0.35)] rounded-xl'>
-        <a href='https://karweiii.github.io/immac/'>
+        <a href={webp_link} >
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
         </a>
         </div>

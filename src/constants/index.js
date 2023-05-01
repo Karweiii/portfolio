@@ -33,7 +33,11 @@ import {
     python,
     linkedin,
     instagram,
-    gith
+    gith,
+    clinic,
+    hoobank,
+    javaprg,
+    calc
   } from "../assets";
   
   export const navLinks = [
@@ -190,58 +194,60 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Clinic Appointment Booking system",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage doctor appointment details, providing a convenient and efficient way to mange appointment made by the patient.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "PHP",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: clinic,
+      source_code_link: "",
+      webp_link:""
     },
     {
-      name: "Job IT",
+      name: "Bank Branding Website",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "React web application for me to learn about building responsive website using Tailwind CSS.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: hoobank,
+      source_code_link: "https://github.com/Karweiii/webp1",
+      webp_link:"https://karweiii.github.io/webp1/"
     },
     {
-      name: "Trip Guide",
+      name: "Java GUI hotel booking program",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A simple graphical user interface (GUI) Java program using Java Swing to create a hotel booking system to allow user book their ideal type of room. This systems require users to create their own account in order to book a hotel room based on their account information",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Java Swing",
           color: "green-text-gradient",
         },
         {
@@ -249,9 +255,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: javaprg,
+      source_code_link: "",
+      webp_link:""
     },
+    {
+      name: "Python GUI Calculator",
+      description:
+        "Simple graphical user interface (GUI) python program using python Tkinter. A simple calculator program just to show simple understanding of algorithms and make it happen on a gui program.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tkinter",
+          color: "green-text-gradient",
+        },
+      ],
+      image: calc,
+      source_code_link: "",
+      webp_link:""
+    },
+    
   ];
   
   const socialMedia=[

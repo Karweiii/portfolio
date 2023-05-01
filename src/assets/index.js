@@ -42,6 +42,10 @@ import gith from "./company/github.svg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import clinic from "./clinic.png";
+import hoobank from "./hoobank.png";
+import javaprg from "./javaprog.png"
+import calc from "./calc.png";
 import Starfieldbg from "./Starfield.jpg";
 import tkw from "./tkw.png"
 import tkw2 from "./tkw2.png"
@@ -89,5 +93,9 @@ export {
   instagram,
   gith,
   tkw,
-  tkw2
+  tkw2,
+  clinic,
+  hoobank,
+  javaprg,
+  calc
 };
