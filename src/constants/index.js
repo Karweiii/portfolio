@@ -37,7 +37,8 @@ import {
     clinic,
     hoobank,
     javaprg,
-    calc
+    calc,
+    immac
   } from "../assets";
   
   export const navLinks = [
@@ -236,6 +237,24 @@ import {
       image: hoobank,
       source_code_link: "https://github.com/Karweiii/webp1",
       webp_link:"https://karweiii.github.io/webp1/"
+    },
+    {
+      name: "Online Branding Website",
+      description:
+        "My first basic react web app with just a little bit of Javascript thus its not that fancy but still put some effort in it with some creative designs and animation. ",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: immac,
+      source_code_link: "https://github.com/Karweiii/immac",
+      webp_link:"https://karweiii.github.io/immac/"
     },
     {
       name: "Java GUI hotel booking program",

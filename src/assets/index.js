@@ -46,11 +46,10 @@ import clinic from "./clinic.png";
 import hoobank from "./hoobank.png";
 import javaprg from "./javaprog.png"
 import calc from "./calc.png";
-import Starfieldbg from "./Starfield.jpg";
+import immac from "./immac.png";
 import tkw from "./tkw.png"
 import tkw2 from "./tkw2.png"
 export {
-  Starfieldbg,
   web_dev,
   seo,
   ai,
@@ -97,5 +96,6 @@ export {
   clinic,
   hoobank,
   javaprg,
-  calc
+  calc,
+  immac
 };
