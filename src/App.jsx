@@ -9,14 +9,12 @@ const App=()=>{
             <Navbar/>
             <div className=''>
               <Hero/>
-              
               <About/>
-              </div>
-              <Experience/>
-              <Tech/>
-              <Works/>
-              <Contact/>
-            
+            </div>
+            <Experience/>
+            <Tech/>
+            <Works/>
+            <Contact/>
             <Footer/>
     </BrowserRouter>
   )

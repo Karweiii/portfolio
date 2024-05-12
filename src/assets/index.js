@@ -35,6 +35,7 @@ import tesla from "./company/tesla.png";
 import apu from "./company/APU.png"
 import bb from "./company/bikebear.png"
 import sunway from "./company/sunway.png"
+import lintramax from "./company/lintramax.png"
 import instagram from "./company/instagram.svg"
 import linkedin from "./company/linkedin.svg"
 import gith from "./company/github.svg"
@@ -97,5 +98,6 @@ export {
   hoobank,
   javaprg,
   calc,
-  immac
+  immac,
+  lintramax
 };

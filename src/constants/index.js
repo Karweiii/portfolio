@@ -38,7 +38,8 @@ import {
     hoobank,
     javaprg,
     calc,
-    immac
+    immac,
+    lintramax
   } from "../assets";
   
   export const navLinks = [
@@ -162,6 +163,18 @@ import {
         "Direct enrollment to Degree year 2 by transfering credit from the previous Diploma studies.",
         "Qualified for Jeffrey Cheah Entrance Scholarship"
         
+      ],
+    },
+    {
+      title: "Full Stack Developer Intern",
+      company_name: "Lintramax",
+      icon: lintramax,
+      iconBg: "#FFFFFF",
+      date: "Jan 2023 - Present",
+      points: [
+        "Successfully completed my Degree internship at Lintramax Sdn Bhd as a full stack developer intern",
+        "Main task is to fix bugs, add new features, upgrade features for QUARTO(cloud based web app of the company)",
+        "Tech stack: HTML, CSS, Angular, JavaScript, C#, ASP.NET, Microsoft SQL",
       ],
     },
   ];
