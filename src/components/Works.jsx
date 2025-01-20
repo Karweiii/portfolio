@@ -17,7 +17,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link,webp_link
       <Tilt options={{max:45,scale:1,speed:450}} ref={ref}>
         <div className='relative w-full h-[230px] border-solid border-[5px] border-[rgba(108,122,137,0.35)] rounded-xl'>
         <a href={webp_link} >
-          <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
+          <img src={image} alt={name} className="w-full h-full object-fill"/>
         </a>
         </div>
       </Tilt>
@@ -27,7 +27,7 @@ const ProjectCard=({index,name,description,tags,image,source_code_link,webp_link
         </div>
 
         <div className='mt-2 flex flex-wrap gap-2 justify-between'>
-          <div className='gap-2 flex place-items-center'>
+          <div className='flex flex-wrap gap-2 max-w-[230px]'>
           {tags.map((tag)=>(
             <p key={tag.name} className={`text-[14px] ${tag.color}`}>
               #{tag.name}

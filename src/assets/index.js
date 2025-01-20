@@ -1,10 +1,6 @@
 import logo from "./logo.svg";
 import kwlogoblack from "./kwlogoblack.svg"
 import kwlogowhite from "./kwlogowhite.svg"
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import web_dev from "./web_dev.png";
 import seo from "./seo.png";
 import ai from "./ai_ent.png";
@@ -27,11 +23,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png"
+import langchain from "./tech/langchain.png"
+import nextjs from "./tech/nextjs.png"
+import shadcn from "./tech/shadcn.png"
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import apu from "./company/APU.png"
 import bb from "./company/bikebear.png"
 import sunway from "./company/sunway.png"
@@ -40,14 +35,11 @@ import instagram from "./company/instagram.svg"
 import linkedin from "./company/linkedin.svg"
 import gith from "./company/github.svg"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import clinic from "./clinic.png";
-import hoobank from "./hoobank.png";
-import javaprg from "./javaprog.png"
-import calc from "./calc.png";
-import immac from "./immac.png";
+import fyp from  "./fyp.png"
+import ruma from  "./ruma.png"
+import voltio from "./voltio.png"
+import jiraffe from  "./jiraffe.png"
+
 import tkw from "./tkw.png"
 import tkw2 from "./tkw2.png"
 export {
@@ -58,10 +50,6 @@ export {
   logo,
   kwlogoblack,
   kwlogowhite,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
@@ -79,25 +67,20 @@ export {
   typescript,
   threejs,
   python,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   apu,
   bb,
   sunway,
-  carrent,
-  jobit,
-  tripguide,
   linkedin,
   instagram,
   gith,
   tkw,
   tkw2,
-  clinic,
-  hoobank,
-  javaprg,
-  calc,
-  immac,
-  lintramax
+  lintramax,
+  fyp,
+  ruma,
+  voltio,
+  jiraffe,
+  langchain,
+  nextjs,
+  shadcn
 };

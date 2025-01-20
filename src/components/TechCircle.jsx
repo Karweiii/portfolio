@@ -1,5 +1,4 @@
 import React from 'react'
-import {backend} from '../assets'
 import {motion} from 'framer-motion'
 import{fadeIn} from '../utils/motion'
 // bg-gradient-to-br from-[#D9D9D9] to-[#797979] relative group hover:from-[#797979] hover:to-[#D9D9D9]

@@ -3,43 +3,32 @@ import {
     seo,
     ai,
     ma_dev,
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     apu,
     bb,
     sunway,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     python,
     linkedin,
     instagram,
     gith,
-    clinic,
-    hoobank,
-    javaprg,
-    calc,
-    immac,
-    lintramax
+    lintramax,
+    fyp,
+    ruma,
+    voltio,
+    jiraffe,
+    langchain,
+    nextjs,
+    shadcn,
   } from "../assets";
   
   export const navLinks = [
@@ -60,17 +49,14 @@ import {
   const services = [
     {
       title: "Web Developer",
-      icon: web,
       bg:web_dev,
     },
     {
       title: "Mobile App Developer",
-      icon: mobile,
       bg: ma_dev
     },
     {
       title: "SEO",
-      icon: backend,
       bg: seo
     },
     {
@@ -105,8 +91,24 @@ import {
       icon: nodejs,
     },
     {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Next.JS",
+      icon: nextjs,
+    },
+    {
+      name: "Shadcns/UI",
+      icon: shadcn,
+    },
+    {
       name:"Python",
       icon:python
+    },
+    {
+      name:"LangChain",
+      icon:langchain
     },
     {
       name: "MongoDB",
@@ -157,7 +159,7 @@ import {
       company_name: "Sunway University",
       icon: sunway,
       iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
+      date: "Jan 2023 - Jan 2025",
       points: [
         "Enroll in the course of Bachelor in Software Engineering (BSE)",
         "Direct enrollment to Degree year 2 by transfering credit from the previous Diploma studies.",
@@ -170,7 +172,7 @@ import {
       company_name: "Lintramax",
       icon: lintramax,
       iconBg: "#FFFFFF",
-      date: "Jan 2023 - Present",
+      date: "Jan 2024 - April 2024",
       points: [
         "Successfully completed my Degree internship at Lintramax Sdn Bhd as a full stack developer intern",
         "Main task is to fix bugs, add new features, upgrade features for QUARTO(cloud based web app of the company)",
@@ -179,132 +181,129 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
   const projects = [
     {
-      name: "Clinic Appointment Booking system",
+      name: "Intelligent Course Consultation System",
       description:
-        "Web-based platform that allows users to search, book, and manage doctor appointment details, providing a convenient and efficient way to mange appointment made by the patient.",
+        "An Intelligent Course Consultation System, a university website demo featuring an AI-powered chatbot. Using the Retrieval-Augmented Generation (RAG) technique, the system offers students up-to-date course information and personalized recommendations based on their interests and qualifications. This project simplifies course selection and enhances access to academic resources.",
       tags: [
         {
-          name: "HTML",
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "PHP",
+          name: "React.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
           color: "green-text-gradient",
         },
-        {
-          name: "MySQL",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: clinic,
-      source_code_link: "",
-      webp_link:""
-    },
-    {
-      name: "Bank Branding Website",
-      description:
-        "React web application for me to learn about building responsive website using Tailwind CSS.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: hoobank,
-      source_code_link: "https://github.com/Karweiii/webp1",
-      webp_link:"https://karweiii.github.io/webp1/"
-    },
-    {
-      name: "Online Branding Website",
-      description:
-        "My first basic react web app with just a little bit of Javascript thus its not that fancy but still put some effort in it with some creative designs and animation. ",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: immac,
-      source_code_link: "https://github.com/Karweiii/immac",
-      webp_link:"https://karweiii.github.io/immac/"
-    },
-    {
-      name: "Java GUI hotel booking program",
-      description:
-        "A simple graphical user interface (GUI) Java program using Java Swing to create a hotel booking system to allow user book their ideal type of room. This systems require users to create their own account in order to book a hotel room based on their account information",
-      tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Java Swing",
-          color: "green-text-gradient",
-        },
-      ],
-      image: javaprg,
-      source_code_link: "",
-      webp_link:""
-    },
-    {
-      name: "Python GUI Calculator",
-      description:
-        "Simple graphical user interface (GUI) python program using python Tkinter. A simple calculator program just to show simple understanding of algorithms and make it happen on a gui program.",
-      tags: [
         {
           name: "Python",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "LangChain",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fyp,
+      source_code_link: "https://github.com/Karweiii/Jarvis",
+      webp_link:""
+    },
+    {
+      name: "Ruma",
+      description:
+        "Ruma is an innovative app that revolutionizes event hosting by leveraging blockchain technology. It allows users to host events directly on-chain, ensuring transparency and security. Attendees can mint unique NFTs as memorable keepsakes from the event, while NFT-based badges streamline authentication, providing a seamless and secure experience for both organizers and participants.",
+      tags: [
+        {
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "Tkinter",
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Shadcn/UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Anchor",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Solana",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Rust",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: ruma,
+      source_code_link: "https://github.com/Karweiii/ruma",
+      webp_link:""
+    },
+    {
+      name: "Voltio",
+      description:
+        "Voltio is a Web3 platform enabling users to invest in fractionalized solar energy projects through NFTs. By tokenizing renewable energy assets, Voltio democratizes access to sustainable investments, allowing users to own and trade shares in solar projects while promoting clean energy adoption.",
+      tags: [
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
           color: "green-text-gradient",
         },
       ],
-      image: calc,
-      source_code_link: "",
-      webp_link:""
+      image: voltio,
+      source_code_link: "https://github.com/Karweiii/voltio",
+      webp_link:"https://voltio.vercel.app/"
     },
+    {
+      name: "Jiraffe",
+      description:
+        "Jiraffe is a task management tool. It helps streamline project workflows, track tasks, and enhance collaboration among team members. By providing a centralized platform for managing software development activities, Jiraffe ensures efficient project execution and adherence to software process best practices.",
+      tags: [
+        {
+          name: "Vite",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+      ],
+      image: jiraffe,
+      source_code_link: "https://github.com/Karweiii/jiraffe",
+      webp_link:"https://jiraffe.vercel.app/"
+    },
+    
     
   ];
   
@@ -325,4 +324,4 @@ import {
     },
   ]
 
-  export { services, technologies, experiences, testimonials, projects,socialMedia };
+  export { services, technologies, experiences, projects,socialMedia };
